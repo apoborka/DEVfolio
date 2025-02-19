@@ -5,7 +5,7 @@ const Header: React.FC = () => {
   return (
     <header>
       <h1>Alexander Poborka</h1>
-      <h3>Full-Stack Development Portfolio</h3>
+      <h2>QA Lead & Full-Stack Developer</h2>
       <Navigation />
     </header>
   );
