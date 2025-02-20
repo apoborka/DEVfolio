@@ -3,9 +3,13 @@ import Navigation from './Navigation';
 
 const Header: React.FC = () => {
   return (
-    <header>
-      <h1>Alexander Poborka</h1>
-      <h2>QA Lead & Full-Stack Developer</h2>
+    <header className="header">
+      <div className="header-content">
+        <div className="line"></div>
+        <h1>Alexander J. Poborka</h1>
+        <div className="line"></div>
+      </div>
+      <h2>QA Lead  |  Full-Stack Developer  |  Audio Engineer</h2>
       <Navigation />
     </header>
   );
