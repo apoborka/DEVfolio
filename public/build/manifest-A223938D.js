@@ -1,0 +1,1 @@
+window.__remixManifest={"entry":{"module":"/build/entry.client-M6TVJVM3.js","imports":["/build/_shared/chunk-NYMDLYKV.js"]},"routes":{"root":{"id":"root","path":"","module":"/build/root-6MMPDIB3.js","hasAction":false,"hasLoader":false,"hasCatchBoundary":false,"hasErrorBoundary":false}},"version":"a223938d","url":"/build/manifest-A223938D.js"};
