@@ -18,6 +18,19 @@ header, footer {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header-content .line {
+  flex: 1;
+  height: 2px;
+  background-color: #ecf0f1;
+}
+
 header h1 {
   margin: 0;
   font-size: 2rem;
@@ -104,8 +117,8 @@ h2 {
   padding: 0.5rem 1rem;
   font-size: 1rem;
   color: #fff;
-  background-color: #3498db;
-  border: none;
+  background-color: #2c3e50;
+  border: 2px, line;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -304,6 +317,15 @@ form span {
 }
 
 /* Footer Styles */
+footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
 footer a {
   color: #ecf0f1;
   text-decoration: none;
@@ -333,19 +355,33 @@ footer a:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.resume-header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background-color: #adcbdf;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
 .resume h2 {
   font-size: 2rem;
   color: #2c3e50;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.25rem;
 }
 
 .resume .download-link {
   display: inline-block;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
   padding: 0.5rem 1rem;
   font-size: 1rem;
   color: #fff;
-  background-color: #3498db;
+  background-color: #2c3e50;
+  border: 2px, line;
   border-radius: 4px;
   text-decoration: none;
   transition: background-color 0.3s ease;
@@ -355,34 +391,136 @@ footer a:hover {
   background-color: #2980b9;
 }
 
-.resume .proficiencies-container {
+.proficiencies-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 
-.resume .proficiencies-list {
-  list-style: none;
+.proficiencies-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  border: 1px solid #ccc;
+  padding: 1.3rem 3rem 3rem 3rem;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: auto;
+}
+
+.split-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.split-header span {
+  display: block;
+}
+
+.proficiencies-list {
+  list-style: disc;
   padding: 0;
   margin: 0;
-  flex: 1;
-  min-width: 300px;
-  margin: 1rem;
+  text-align: left;
 }
 
-.resume .proficiencies-list li {
+.proficiencies-list li {
   font-size: 1rem;
   color: #666;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 @media (max-width: 768px) {
-  .resume .proficiencies-container {
+  .proficiencies-container {
     flex-direction: column;
     align-items: center;
   }
 
-  .resume .proficiencies-list {
-    min-width: 100%;
+  .proficiencies-list-container {
+    width: 100%;
+  }
+
+  .proficiencies-list {
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .resume-header-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .resume .download-link {
+    margin-top: 1rem;
+  }
+
+  .proficiencies-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .proficiencies-list-container {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  .proficiencies-list {
+    text-align: left;
+  }
+}
+
+/* About Me Styles */
+.about-me {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dev-img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #afafaf;
+  box-shadow: 0 0 0 5px #0b3857;
+  transition: transform 0.3s ease;
+}
+
+.dev-img:hover {
+  transform: scale(1.03);
+}
+
+.about-me-text {
+  flex: 1;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #333;
+  background: linear-gradient(90deg, #f3f4f6, #e2e8f0);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+  transition: background 0.3s ease;
+}
+
+.about-me-text:hover {
+  background: linear-gradient(90deg, #e2e8f0, #f3f4f6);
+}
+
+@media (max-width: 600px) {
+  .about-me {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .dev-img {
+    width: 150px;
+    margin-bottom: 1rem;
   }
 }
