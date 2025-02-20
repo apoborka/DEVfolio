@@ -7,7 +7,7 @@ export const projects = [
   {
     title: 'E.M.S. Database',
     dateCompleted: 'Feb 3, 2025',
-    imageUrl: '/src/assets/projectImages/emsViewAllRoles.jpg',
+    imageUrl: 'assets/projectImages/emsViewAllRoles.jpg',
     deployedUrl: '',
     repoUrl: 'https://github.com/apoborka/Employee-Management-System',
     technologiesUsed: 'TypeScript, Node.js, Inquirer, postgresSQL, dotenv',
@@ -16,7 +16,7 @@ export const projects = [
   {
     title: 'Weather Dashboard',
     dateCompleted: 'Jan 27, 2025',
-    imageUrl: '/src/assets/projectImages/wdMainPage.jpg',
+    imageUrl: 'assets/projectImages/wdMainPage.jpg',
     deployedUrl: 'https://weather-dashboard-fv9t.onrender.com',
     repoUrl: 'https://github.com/apoborka/Weather-Dashboard',
     technologiesUsed: 'TypeScript, HTML, CSS, OpenWeather API',
@@ -25,7 +25,7 @@ export const projects = [
   {
     title: 'Vehicle-Builder',
     dateCompleted: 'Jan 16, 2025',
-    imageUrl: '/src/assets/projectImages/vbMain.jpg',
+    imageUrl: 'assets/projectImages/vbMain.jpg',
     deployedUrl: '',
     repoUrl: 'https://github.com/apoborka/Vehicle-Builder',
     technologiesUsed: 'TypeScript, Inquirer, Node.js',
@@ -34,7 +34,7 @@ export const projects = [
   {
     title: 'Workday Tasklist (Group)',
     dateCompleted: 'Dec 17, 2024',
-    imageUrl: '/src/assets/projectImages/wdtModal.jpg',
+    imageUrl: 'assets/projectImages/wdtModal.jpg',
     deployedUrl: 'https://codergeek081.github.io/Project-1/',
     repoUrl: 'https://github.com/apoborka/YourWorkdayTasklist',
     technologiesUsed: 'JavaScript, HTML, CSS, Bootstrap',
@@ -43,7 +43,7 @@ export const projects = [
   {
     title: 'Pro-README Generator',
     dateCompleted: 'Jan 9, 2025',
-    imageUrl: '/src/assets/projectImages/Pro-README-Result.jpg',
+    imageUrl: 'assets/projectImages/Pro-README-Result.jpg',
     deployedUrl: '',
     repoUrl: 'https://github.com/apoborka/Pro-README',
     technologiesUsed: 'JavaScript, Node.js, Inquirer',
@@ -52,7 +52,7 @@ export const projects = [
   {
     title: 'DEVfolio',
     dateCompleted: 'Feb 19, 2025',
-    imageUrl: '/src/assets/projectImages/dfPortfolio.jpg',
+    imageUrl: 'assets/projectImages/dfPortfolio.jpg',
     deployedUrl: '',
     repoUrl: 'https://github.com/apoborka/DEVfolio',
     technologiesUsed: 'TypeScript, React, CSS, HTML',
