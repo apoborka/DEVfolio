@@ -3,9 +3,8 @@ import React from 'react';
 const AboutMe: React.FC = () => {
   return (
     <section className="about-me">
-      <img src="assets/projectImages/devImg.jpg" alt="Developer photo" className="dev-img" />
+      <img src="/assets/projectImages/devImg.jpg" alt="Developer photo" className="dev-img" />
       <p className="about-me-text">
-        {/* TODO: Input "About Me" text */}
         Hello, and welcome! My name is Alexander ("Alex") Poborka, and I am currently a QA Lead on the road to becoming a full-stack developer. I have over 15 years of experience across various diverse industries such as entertainment, service, automotive manufacturing, and technology. I thrive in fast-paced environments and love tackling complex challenges by finding creative solutions. I hold a Bachelor's degree in Business Administration from Middle Tennessee State University and am currently enrolled in The Ohio State University's Full-Stack Bootcamp.
         <br>
         </br>

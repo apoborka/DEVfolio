@@ -26,7 +26,7 @@ const Resume: React.FC = () => {
     <section className="resume">
       <div className="resume-header-container">
         <h2>Interested in working together?</h2>
-        <a href="assets/resumePdf/Resume-Alexander-Poborka.pdf" download className="download-link">Download My Resume</a>
+        <a href="/assets/resumePdf/Resume-Alexander-Poborka.pdf" download className="download-link">Download My Resume</a>
       </div>
       <div className="proficiencies-container">
         <div className="proficiencies-list-container">
