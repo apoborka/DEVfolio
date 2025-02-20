@@ -18,6 +18,7 @@ A personal single-page application designed to showcase my development portfolio
 
 ## Installation
 Visit the URL:
+[Deployed on Netlify](https://stately-sawine-d50665.netlify.app/)
 
 
 
