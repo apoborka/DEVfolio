@@ -5,7 +5,7 @@
 ## Description
 A personal single-page application designed to showcase my development portfolio, information about my professional development, contact information, and resume.
 
-![Screenshot of the deployed application's Portfolio page](/assets/projectImages/dfProjectImg.jpg)
+![Screenshot of the deployed application's Portfolio page](src/assets/projectImages/dfProjectImg.jpg)
 
 
 ## Table of Contents
