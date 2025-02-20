@@ -5,7 +5,7 @@ import osuSeal from '../assets/projectImages/osuSeal.png';
 
 export const projects = [
   {
-    title: 'Employee Management System',
+    title: 'E.M.S. Database',
     dateCompleted: 'Feb 3, 2025',
     imageUrl: '/src/assets/projectImages/emsViewAllRoles.jpg',
     deployedUrl: '',
@@ -17,7 +17,7 @@ export const projects = [
     title: 'Weather Dashboard',
     dateCompleted: 'Jan 27, 2025',
     imageUrl: '/src/assets/projectImages/wdMainPage.jpg',
-    deployedUrl: 'https://weather-dashboard-fv9t.onrender.com/',
+    deployedUrl: 'https://weather-dashboard-fv9t.onrender.com',
     repoUrl: 'https://github.com/apoborka/Weather-Dashboard',
     technologiesUsed: 'TypeScript, HTML, CSS, OpenWeather API',
     projectDescription: 'A dashboard to display weather information for various cities.'
@@ -29,7 +29,7 @@ export const projects = [
     deployedUrl: '',
     repoUrl: 'https://github.com/apoborka/Vehicle-Builder',
     technologiesUsed: 'TypeScript, Inquirer, Node.js',
-    projectDescription: 'A tool to build and customize vehicles based on user input.'
+    projectDescription: 'A tool to build and customize new and existing vehicles based on user input.'
   },
   {
     title: 'Workday Tasklist (Group)',
@@ -47,7 +47,7 @@ export const projects = [
     deployedUrl: '',
     repoUrl: 'https://github.com/apoborka/Pro-README',
     technologiesUsed: 'JavaScript, Node.js, Inquirer',
-    projectDescription: 'A tool to generate professional README files for projects.'
+    projectDescription: 'A tool to generate professional README files with minimal effort.'
   },
   {
     title: 'DEVfolio',
